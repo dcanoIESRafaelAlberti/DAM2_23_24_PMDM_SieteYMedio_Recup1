@@ -1,23 +1,25 @@
-# Práctica 3 - Black Jack
+# Practica03 - Recuperación Trimestre 1
 
-## Desarrollo de un Juego de Blackjack con Modos de Juego y Clases Adicionales
+## Siete y Medio
 
 ### Objetivo:
 
-El objetivo de esta práctica es aplicar los conceptos de Jetpack Compose, Kotlin y programación orientada a objetos para desarrollar un juego de Blackjack en Android Studio. En esta versión, se introducirán dos modos de juego (2 jugadores y 1 jugador contra la máquina) y se implementarán clases adicionales para gestionar la baraja, las cartas y los jugadores.
+El objetivo de esta práctica es aplicar los conceptos de Jetpack Compose, Kotlin y programación orientada a objetos para desarrollar el juego del Siete y Medio en Android Studio. En esta versión, se introducirán un solo modo de juego de 2 jugadores y se implementarán clases adicionales para gestionar la baraja, las cartas y los jugadores.
+
+Para incluir la navegación, la app debe mostrar una pantalla principal con 2 botones: "Carta más alta" y "Siete y medio"... que nos llevarán al screen de cada juego.
 
 ### Requisitos Básicos:
 1. Interfaz Gráfica:
 
    ```
-   Diseñar la interfaz del juego utilizando Jetpack Compose, considerando la opción de seleccionar el modo de juego al inicio.
-   Mostrar las cartas de los jugadores y del crupier de manera clara y atractiva (imágenes).
+   Diseñar la interfaz del juego utilizando Jetpack Compose, considerando la pantalla principal y la navegación.
+   Mostrar las cartas de los jugadores de manera clara y atractiva (imágenes).
    ```
 
 2. Lógica del Juego:
 
    ```
-   Implementar la lógica del juego de Blackjack para ambos modos de juego.
+   Implementar la lógica del juego del Siete y medio para un modo de 2 juegadores.
    Esto incluye la distribución inicial de cartas, el cálculo de la puntuación de la mano y las decisiones del jugador (pedir carta, plantarse, etc.).
    ```
 
@@ -41,13 +43,6 @@ El objetivo de esta práctica es aplicar los conceptos de Jetpack Compose, Kotli
    - Una lista de objetos Carta que representan las cartas de la baraja.
    - Métodos para crear una nueva baraja y barajar o desordenar las cartas.
    ```
-  
-6. Modos de Juego:
-
-   ```
-   Implementar dos modos de juego:
-   - Modo 1 Jugador contra la Máquina: El jugador juega contra la máquina (crupier).
-   - Modo 2 Jugadores: Dos jugadores compiten entre sí.
 
 ### Clases Adicionales:
 
@@ -60,7 +55,7 @@ El objetivo de esta práctica es aplicar los conceptos de Jetpack Compose, Kotli
 2. Clase Jugador:
 
    ```
-   Crear una clase Jugador que tenga propiedades como nombre, mano (conjunto de cartas), fichas (en el caso del modo 2 Jugadores), etc.
+   Crear una clase Jugador que tenga propiedades como nombre, mano (conjunto de cartas), etc.
    ```
    
 ### Recursos:
